@@ -10,7 +10,6 @@ Utilizei o aplicativo ElevenLab e Audacity para editar o áudio e o Youtube para
 ![ia](https://github.com/user-attachments/assets/eb3150c5-1785-41ae-8091-9cff51ebfdeb) - ChatGPT
 
 ![Capa - Backend](https://github.com/user-attachments/assets/997bb2d8-b791-4c3f-b251-ab48a93ea2fe)
-[YouTube](podcast)
-(https://www.youtube.com/embed/GGW2zvqO-ew)
+[YouTube](https://www.youtube.com/embed/GGW2zvqO-ew)
 
 [^1]: Desafio de Projeto "podcast" professor Expert Felipe Aguiar - Bootcamp Caixa.
