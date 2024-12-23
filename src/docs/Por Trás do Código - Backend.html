@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/src/index.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Por Trás do Código - Backend</title>
+    <link rel="stylesheet" href="./Por Trás do Código - Backend_files/style.css">
+<meta id="acfifjfajpekbmhmjppnmmjgmhjkildl"></head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Por Trás do Código - Backend</h1>
+            <p>Explorando o Coração da Tecnologia Backend e as Oportunidades que Esperam por Você</p>            
+        </div>
+        <div class="episode">
+            <h2>Episódio 1: A Magia Invisível do Backend</h2>
+            <a href="https://www.youtube.com/watch?v=GGW2zvqO-ew&amp;list=PLpG0Dyg-67_AcdksxWRGjlH_mrUg6KTxC" target="_blank">YouTube</a>
+            <p><strong>Por que você deve fazer parte dela?</strong></p>
+
+            <h3>Introdução</h3>
+            <p>
+                "Bem-vindos ao 'Por Trás do Código', o podcast que descomplica o mundo da tecnologia e ajuda você a entrar na área de backend. 
+                Neste episódio, vamos explorar o que é o backend, sua importância, o que um desenvolvedor faz no dia a dia e como você pode começar 
+                nessa área cheia de oportunidades!"
+            </p>
+        </div>        
+
+        <div class="podcast-player">
+            <h3>Ouça ou Assista ao Podcast</h3>
+            <iframe src="./Por Trás do Código - Backend_files/GGW2zvqO-ew.html" width="100%" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        </div>
+
+        <div class="podcast-player">
+            <h3>Ouça o Podcast em Áudio</h3>
+            <audio controls="">
+                <source src="templates/output/ElevenLabs_2024-12-19T19_57_13_Rachel_pre_s70_sb57_se0_b_m2.mp3" type="audio/mpeg">
+                Seu navegador não suporta o player de áudio.
+            </audio>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 - Podcast. Belisnalva Costa.</p>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
